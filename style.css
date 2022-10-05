@@ -30,14 +30,20 @@ section{
         position: fixed;
     }
     nav{
+        background-color: rgb(23, 38, 82);
+        height: 14vh;
+        margin-left: -5px;
+          margin-right: -13px;
+          margin-bottom: 12px;
+          padding-bottom: 5px;
         display: flex;
-        padding: 1% 2%;
+        padding: 5px 2%;
         justify-content: space-between;
         align-items: center;
 
     }
     nav img{
-        width: 150px;
+        width: 120px;
     }
     .nav-links{
         flex: 1;
