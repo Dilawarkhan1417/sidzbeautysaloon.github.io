@@ -174,7 +174,7 @@ section{
 
     }
     .row{
-        margin: 5%;
+        margin: 5px;
         display: flex;
         justify-content: space-between;
     }
@@ -184,7 +184,7 @@ section{
         flex-basis: space-between;
         background-color: gold;
         border-radius: 18px;
-        margin-bottom: 5%;
+        margin-bottom: 5px;
         padding: 20px 12px;
         box-sizing: border-box;
         margin: 10px;
@@ -209,11 +209,14 @@ section{
             padding-top: 150px;
             font-size:  10px;
     }  
+    .row{
+        margin: 25px;
+    }
     .ser-col{
     
-        width: 70%;
-        margin-right: -5px;
-        padding-left: 5px;
+        width: 80px;
+        margin-right: -10px;
+        padding-left: -15px;
     }  }  
 .branches{
     background-color: rgb(41, 54, 88);
