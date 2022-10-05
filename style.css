@@ -47,7 +47,6 @@ section{
         width: 120px;
     }
     .nav-links{
-        padding-right: 50px;
         flex: 1;
         text-align: right;
 
@@ -133,9 +132,9 @@ section{
         position: absolute;
         background: gold;
         height: 100vh;
-        width: 100px;
+        width: 200px;
         top: 0;
-        right: -142px;
+        right: -200px;
         text-align: left;
         z-index: 2;
         transition: 1s;        
