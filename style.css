@@ -312,9 +312,18 @@ section{
         font-size:  10px;
 }  
 .br-col img{
-    width: 100%;
+    width: 90%;
 }
+.branches>h1{
+    color: gold;
+        font-size: 26px;
+        font-weight: 600;
+}
+.branches>p{
 
+    color: #fff;
+    margin-bottom: 10px;
+}
 } 
 .facilities{
     background-color: rgb(41, 54, 88);
@@ -368,6 +377,8 @@ section{
             font-weight: 500;
     }
     .facilities>p{
+        width: 90%;
+        text-align: center;
         padding: 2px;
         color: #fff;
         font-size: 7px;
@@ -459,15 +470,20 @@ section{
             font-weight: 200;}
     .reviews>h3{
         color: gold;
-            font-size: 25px;
+            font-size: 20px;
             font-weight: 600;
     }
     .reviews>p{
-        font-size: 15px;
+        font-size: 10px;
         color: #fff;
+    }
+    .row{
+        margin: 10px;
     }
 
     .test-col{
+        margin-top: 2px;
+        border: 2px solid gold;
         justify-content: space-between;
         flex-basis: 45%;
         border-radius: 10px;
@@ -638,6 +654,27 @@ iframe{
     margin-top: 5px;
     font-weight: 600;
 }
+@media(max-width:700px){
+
+    .about>h1{
+        padding-top: 150px;
+         color: gold;
+        font-size: 26px;
+        font-weight: 600;
+}
+.about>p{
+    padding: 5px;
+    color: #fff;
+}
+.about>h4{
+    font-size: 5px;
+    margin-bottom: 0;
+    margin-top: 5px;
+    font-weight: 600;
+
+}
+}
+
 .last{
     padding-top: 50px;
     background-color: rgb(23, 38, 82);
