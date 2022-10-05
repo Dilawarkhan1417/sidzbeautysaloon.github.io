@@ -157,7 +157,9 @@ section{
     nav img{
         width: 80px;
     }
-    
+    nav{
+        width: 97%;
+    }
     }
     .services{
         background-color: rgb(41, 54, 88);
