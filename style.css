@@ -30,6 +30,7 @@ section{
         position: fixed;
     }
     nav{
+        width: 90%;
         background-color: rgb(23, 38, 82);
         height: 14vh;
         margin-left: -5px;
@@ -143,7 +144,7 @@ section{
     nav .fa{
         display: block;
         color: #fff;
-        margin: 20px;
+        margin: 19px;
         cursor: pointer;
         font-size: 22px;
 
