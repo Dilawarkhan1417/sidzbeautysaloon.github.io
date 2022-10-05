@@ -185,7 +185,7 @@ section{
         background-color: gold;
         border-radius: 18px;
         margin-bottom: 5px;
-        padding: 20px 12px;
+        padding: 10px 12px;
         box-sizing: border-box;
         margin: 10px;
         
@@ -210,19 +210,27 @@ section{
 
             padding-top: 150px;
             font-size:  10px;
-    }  
+    }
+    .services>p{
+        color:#fff;
+        font-size: 9px;
+        font-weight: 300;
+        line-height: 22px;
+        padding: 10px;
+}  
     .row{
 
         margin: 2px;
     }
     .ser-col{
+        border: 2px solid rgb(240, 235, 235);
         width: 70px;
-        margin-right: 10px;
-        padding-left: 15px;
+        padding-left: 5px;
+        margin: 5px;
     } 
     .ser-col h3{
 
-        font-size: 7px;
+        font-size: 9px;
         text-align: center;
         font-weight: 200;
         margin: 10px 2PX;
