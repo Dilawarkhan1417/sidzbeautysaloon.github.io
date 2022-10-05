@@ -214,10 +214,19 @@ section{
     }
     .ser-col{
     
-        width: 80px;
+        width: 70px;
         margin-right: -10px;
         padding-left: -15px;
-    }  }  
+    } 
+    .ser-col h3{
+
+        font-size: 7px;
+        text-align: center;
+        font-weight: 200;
+        margin: 10px 2PX;
+        color: #fff;
+    }
+}  
 .branches{
     background-color: rgb(41, 54, 88);
 
@@ -324,7 +333,7 @@ section{
 }
 .fac-col>p{
     color: #fff;
-    padding: 0;
+    padding: 2px;
 
 }
 .fac-col>h3{
@@ -333,6 +342,29 @@ section{
     margin-bottom: 15px;
     text-align: left;
 
+}
+@media(max-width: 720px){
+    .facilities>h1{
+        color: gold;
+            font-size: 22px;
+            font-weight: 500;
+    }
+    .facilities>p{
+        padding: 2px;
+        color: #fff;
+        font-size: 7px;
+    
+    }
+    .facilities>h3{
+        color: gold;
+            font-size: 16px;
+            font-weight: 200;
+    }
+    .fac-col>p{
+        color: #fff;
+        font-size: 10px;
+        padding: 2px;
+}
 }
 .reviews{
     background-color: rgb(41, 54, 88);
