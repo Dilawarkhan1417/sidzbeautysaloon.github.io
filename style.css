@@ -157,8 +157,12 @@ section{
     nav img{
         width: 80px;
     }
+    .header{
+        width: 90%;
+
+    }
     nav{
-        width: 97%;
+        width: 90%;
     }
     }
     .services{
