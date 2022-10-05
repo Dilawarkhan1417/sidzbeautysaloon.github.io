@@ -30,7 +30,7 @@ section{
         position: fixed;
     }
     nav{
-        width: 90%;
+        width: 100%;
         background-color: rgb(23, 38, 82);
         height: 14vh;
         margin-left: -5px;
@@ -47,6 +47,7 @@ section{
         width: 120px;
     }
     .nav-links{
+        padding-right: 50px;
         flex: 1;
         text-align: right;
 
