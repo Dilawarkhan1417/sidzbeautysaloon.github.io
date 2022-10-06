@@ -24,7 +24,7 @@ section{
     }
     header{
         width: 100%;  
-        min-height: 100vh;
+        min-height: 14vh;
         z-index: 999;
         margin-top: 0;
         position: fixed;
@@ -99,8 +99,15 @@ section{
     }
     .btn{
 
+        
+
+
+    }
+    .text-box a
+    {
         color: white;
-        border: 1px solid white;
+        
+        border: 4px solid rgb(87, 14, 14);
         padding: 12px 32px;
         cursor: pointer;
         display: inline-block;
@@ -108,13 +115,11 @@ section{
         background: transparent;
         position: relative;
         transition: all 0.5s ease-in-out;
-
-
     }
-    .btn:hover{
+    .text-box .btn:hover {
         border: 1px solid gold;
         background: gold;
-
+    
     }
 
     nav .fa{
